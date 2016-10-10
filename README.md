@@ -17,7 +17,7 @@ php composer.phar require --prefer-dist cenotia/yii2-slippry "*"
 or add
 
 ```
-"cenotia/yii2-slipry": "*"
+"cenotia/yii2-slippry": "*"
 ```
 
 to the require section of your `composer.json` file.
