@@ -29,18 +29,15 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-	cenotia\slippry\SlippryWidget::widget([
-		'selector' => '#image_id',
-		'pluginOptions' => [
-			'aspectRatio' => 1,
-			'minSize' => [50,50],
-			'maxSize' => [200,200],
-			'setSelect' => [10,10,40,40],
-			'bgColor' => 'black',
-			'bgOpacity' => '0.5',
-			'onChange' => new yii\web\JsExpression('function(c){console.log(c.x);}')
-		]
-	]);
+	echo cenotia\slippry\SlippryWidget::widget([
+     'selector' => '#head_slidder',
+     'pluginOptions' => [
+         'responsive' => 1,
+         'pager' => 1,
+         'kenZoom' => 120,
+         'onSliderLoad' => new yii\web\JsExpression('function(c){console.log("slider is loading ");}')
+      ]
+  ]);
 ```
 
 For complete documentation please refer to the [official Slippry page](http://slippry.com/settings/)

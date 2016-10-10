@@ -11,7 +11,7 @@ use yii\helpers\Json;
  * SlippryWidget is a wrapper for the [jQuery Slippry Slider Plugin](http://slippry.com).
  *
  * ~~~
- * echo SlippryWidget::widget([
+ * echo cenotia\slippry\SlippryWidget::widget([
  *    'selector' => '#head_slidder',
  *    'pluginOptions' => [
  *        'responsive' => 1,
