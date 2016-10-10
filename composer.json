@@ -1,0 +1,29 @@
+{
+	"name" : "cenotia/yii2-slippry",
+	"description" : "This extension is a wrapper for the jQuery Slippry slider Plugin",
+	"type" : "yii2-extension",
+	"homepage" : "https://github.com/Cenotia/yii2-slippry",
+	"keywords" : [
+		"yii2",
+		"yii",
+		"responsive",
+		"extension",
+		"slider",
+		"slippry",
+		"jquery"
+	],
+	"license" : "BSD 3-Clause",
+	"authors" : [{
+			"name" : "Cenotia Team",
+			"email" : "xavier.villamuera@gmail.com"
+		}
+	],
+	"require" : {
+		"yiisoft/yii2" : "*"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"cenotia\\slippry\\" : ""
+		}
+	}
+}
